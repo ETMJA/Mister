@@ -72,14 +72,12 @@
                             <input type="number" id="maxTemp" name="maxTemp" step="0.1" value="38"><br>
                             <br>
                             <br></br>
-                            <div class="configuracion-temperatura">
+                            <div class="configuracion-humedad">
                                 <h2>Configuración Humedad</h2>
-                                <form action="http://192.168.0.144/setRange" method="get">
-                                    <label for="minTemp">Humedad Mínima:</label>
-                                    <input type="number" id="minTemp" name="minTemp" step="0.1" value="0" ><br>
-                                    <label for="maxTemp">Humedad Máxima:</label> 
-                                    <input type="number" id="maxTemp" name="maxTemp" step="0.1" value="60"><br>
-                                </form>
+                                    <label for="minHum">Humedad Mínima:</label>
+                                    <input type="number" id="minHum" name="minHum" step="0.1" value="0" ><br>
+                                    <label for="maxHum">Humedad Máxima:</label> 
+                                    <input type="number" id="maxHum" name="maxHum" step="0.1" value="60"><br>
                             </div>
                             <button type="submit">Actualizar Rango</button>
                         </form>
