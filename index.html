@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/Nosotros.css">
     <link rel="stylesheet" href="./css/Filosofia.css">
     <link rel="stylesheet" href="./css/contactos.css">
+    <link rel="stylesheet" href="./css/navbarr.css">
 
     <script src="https://kit.fontawesome.com/24763fbc07.js" crossorigin="anonymous"></script>
     
@@ -45,8 +46,8 @@
                 <li><a href="#Inicio" class="selected">Inicio</a></li>
                 <li><a href="#Nosotros">Nosotros</a></li>
                 <li><a href="#Filosofía">Filosofía</a></li>
-                <li><a href="http://172.20.10.5/">Medición en tiempo real</a></li>
-                <li><a href="">Graficos</a></li>
+                <li><a href="http://10.160.25.22/" target="_blank">Medición en tiempo real</a></li>
+                <li><a href="html/Graficos.html">Graficos</a></li>
                 <li><a href="#Contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -60,12 +61,12 @@
                 </div>
                 <div class="producto-img-section">
                     <img class="producto-img" src="./image/datalogger.png" alt="Producto(Datalogger)">
-                    <a class="Registros-boton" href="https://docs.google.com/spreadsheets/d/1E4P445Jacr79fFXwOhatWWravwbfKsTKOzdAOisbMKM/edit?gid=0#gid=0">Historial de los datos registrados</a>
+                    <a class="Registros-boton" href="https://docs.google.com/spreadsheets/d/1E4P445Jacr79fFXwOhatWWravwbfKsTKOzdAOisbMKM/edit?gid=0#gid=0" target="_blank">Historial de los datos registrados</a>
                     
                     <!-- Formulario de configuración de rango de temperatura -->
                     <div class="configuracion-temperatura">
                         <h2>Configuración Temperatura</h2>
-                        <form action="http://172.20.10.5/setRange" method="get">
+                        <form action="http://10.160.25.22/setRange" method="get" target="_blank">
                             <label for="minTemp">Temperatura Mínima:</label>
                             <input type="number" id="minTemp" name="minTemp" step="0.1" value="7"><br>
                             <label for="maxTemp">Temperatura Máxima:</label>

@@ -12,9 +12,8 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    max-width: 1200px; /* Aumenté el ancho máximo */
+    max-width: 980px;
     margin: 0 auto;
-    align-items: center; /* Alinea verticalmente los elementos */
 }
 
 :root[data-theme="light"] .dark-mode-btn {
@@ -27,12 +26,12 @@
 
 /* Logo */
 .logo img {
-    height: 100px;
+    height: 100px; 
     width: 100px;
 }
 
 .logo {
-    height: 100px;
+    height: 100px; 
     width: 100px;
     margin-right: auto;
 }
@@ -44,13 +43,13 @@
     margin: 0;
     padding: 10px;
     gap: 1.3rem;
-    align-items: center; /* Alinea verticalmente los elementos */
 }
 
 .menu li {
     padding: 10px 10px;
 }
 
+/* Enlace de menú */
 .menu a {
     color: var(--color-texto);
     font-size: 18px;
@@ -58,6 +57,8 @@
     line-height: 50px;
     text-transform: uppercase;
     position: relative;
+    white-space: nowrap; /* Evita el salto de línea */
+    padding: 0 8px; /* Ajusta el espaciado */
 }
 
 .menu a:not(.boton)::after {
@@ -81,18 +82,16 @@ nav a:hover {
     transition: all 0.5s;
 }
 
-.registro{
-    border: solid red;
-    
+/* Estilo específico para "Medición en Tiempo Real" */
+.menu a.medicion {
+    padding-right: 10px; /* Espacio adicional para "Medición en Tiempo Real" */
 }
 
-.boton{
-    list-style: none;
+.boton {
     border: 1px solid #f7f799;
     border-radius: 15px;
     padding: 10px 20px;
     box-shadow: 15px 15px 20px #2B2B2B;
-    margin-left: auto; /* Empuja el botón hacia la derecha */
 }
 
 .boton:hover {
@@ -107,7 +106,7 @@ nav a:hover {
 /* Comando para dispositivos móviles */
 @media (max-width: 970px) {
     .logo img {
-        height: 120px;
+        height: 120px; 
         width: 120px;
     }
 
@@ -147,7 +146,7 @@ nav a:hover {
 
     .Close-menu {
         align-self: flex-end;
-        padding: 35px 25px;
+        padding: 45px 25px;
     }
 
     .menu_opened {
@@ -172,6 +171,5 @@ nav a:hover {
     .boton {
         border: none;
         box-shadow: none;
-        margin: 20px auto; /* Centra el botón en el menú móvil */
     }
 }
