@@ -9,7 +9,7 @@
   --color-info-dark: #7d8da1;
   --color-info-light: #dce1eb;
   --color-dark: #363949;
-  --color-light: rgba(132, 139, 200, 0.18);
+  --color-light: #488B8B;
   --color-primary-variant: #111e88;
   --color-dark-variant: #C2BC61;
   --color-background: #0d7d7d;
@@ -30,18 +30,19 @@
   --box-shadow: 0 2rem 3rem var(--color-light);
 
   /* Plotly Chart Color */
-  --chart-background: #fff;
-  --chart-font-color: #444;
-  --chart-axis-color: #444;
+  --chart-background: #045454;
+  --chart-font-color: #C2BC61;
+  --chart-axis-color: #C2BC61;
 }
+
 /* Dark Theme Variables */
 .dark-theme-variables {
   --color-background: #011818;
   --color-white: #022222;
   --color-primary: rgba(206, 220, 41, 0.90);
-  --color-dark: #edeffd;
-  --color-dark-variant: rgba(206, 220, 41, 0.90);
-  --color-light: rgba(0, 0, 0, 0.4);
+  --color-dark: #488B8B;
+  --color-dark-variant: rgba(206, 220, 41, 0.90); /*color del texto*/
+  --color-light: rgba(0, 0, 0, 0.4);  /*color del fondo de los cuadrados*/
   --box-shadow: 0 2rem 3rem var(--color-light);
 
   --chart-background: #022222;

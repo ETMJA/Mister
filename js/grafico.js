@@ -106,7 +106,7 @@ var temperatureData = [
     title: { text: "Temperatura" },
     type: "indicator",
     mode: "gauge+number+delta", // Muestra un número y un delta (diferencia)
-    delta: { reference: 30 },
+    delta: { reference: 10 },
     gauge: {
       axis: { range: [null, 50] },
       steps: [{ range: [0, 20], color: "lightgray" }, { range: [20, 30], color: "gray" }],
@@ -122,7 +122,7 @@ var humidityData = [
     title: { text: "Humedad" },
     type: "indicator",
     mode: "gauge+number+delta",
-    delta: { reference: 50 },
+    delta: { reference: 35 },
     gauge: {
       axis: { range: [null, 100] },
       steps: [{ range: [0, 20], color: "lightgray" }, { range: [20, 30], color: "gray" }],
